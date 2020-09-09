@@ -1,7 +1,7 @@
 import { insertionSort } from '../index.js'
 import { expect } from 'chai'
 
-describe('bubbleSort()', function () {
+describe('insertionSort()', function () {
 
   it('should return an empty list if the input is an empty list', function () {
     expect(insertionSort([])).to.have.deep.ordered.members([])
